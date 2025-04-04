@@ -1,2 +1,2 @@
-# kirby-statusbar
-Kirby frontend statusbar plugin
+# Kirby Statusbar
+
