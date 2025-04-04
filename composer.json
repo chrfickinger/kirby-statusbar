@@ -1,20 +1,26 @@
 {
-  "name": "chrfickinger/kirby-statusbar",
-  "description": "Kirby frontend statusbar plugin",
-  "type": "kirby-plugin",
-  "keywords": [
-    "kirby",
-    "kirby-plugin"
-  ],
-  "license": "MIT",
-  "version": "1.0.0",
-  "authors": [
-    {
-      "name": "Christian Fickinger",
-      "homepage": "https://github.com/chrfickinger/kirby-statusbar"
+    "name": "chrfickinger/kirby-statusbar",
+    "description": "Kirby frontend statusbar plugin",
+    "homepage:": "https://github.com/chrfickinger/kirby-statusbar",
+    "type": "kirby-plugin",
+    "keywords": [
+        "kirby",
+        "kirby-cms",
+        "kirby-plugin"
+    ],
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Christian Fickinger",
+            "homepage": "https://github.com/chrfickinger"
+        }
+    ],
+    "support": {
+        "docs": "https://github.com/chrfickinger/kirby-statusbar/blob/main/README.md",
+        "source": "https://github.com/chrfickinger/kirby-statusbar"
+    },
+    "extra": {
+        "installer-name": "kirby-statusbar"
     }
-  ],
-  "extra": {
-    "installer-name": "kirby-statusbar"
-  }
 }
