@@ -2,6 +2,8 @@
 
 The **Kirby Statusbar Plugin** adds a slim, fixed-position status bar to the bottom of the frontend. It displays environment-specific information useful for developers and editors.
 
+![Screenshot of Kirby Statusbar](assets/kirby-statusbar.png)
+
 ## Features
 - Current page title
 - Page status (`draft`, `unlisted`, `listed`)
