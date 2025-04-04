@@ -1,4 +1,8 @@
-<?php if (option('chrfickinger.kirby-statusbar.active') !== true) return;
+<?php
+
+if (!$kirby->user()) return;
+
+if (option('chrfickinger.kirby-statusbar.active') !== true) return;
 
     use Kirby\Panel\Panel;
 
@@ -23,7 +27,7 @@
 
 ?><style>
     body{padding-bottom:42px;}
-    div.k-statusbar{position:fixed;bottom:0;left:0;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:14px;height:38px;color:#2b2b2b;background:#F0F0F0;border-top:4px solid;border-color:<?=option('chrfickinger.kirby-statusbar.color'); ?>;display:flex;align-content:flex-start;align-items:center;padding:0 10px;}
+    div.k-statusbar{position:fixed;bottom:0;left:0;z-index:99999;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:14px;height:38px;color:#2b2b2b;background:#F0F0F0;border-top:4px solid;border-color:<?=option('chrfickinger.kirby-statusbar.color'); ?>;display:flex;align-content:flex-start;align-items:center;padding:0 10px;}
     div.k-statusbar a{text-decoration:none;}
     div.k-statusbar div{display:flex;line-height:38px;}
     div.k-statusbar div svg{display:inline;margin-top:-2px;}

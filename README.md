@@ -35,3 +35,7 @@ return [
         'color'       => '#e8b860'
     ]
 ];
+```
+
+## Credits
+Inspired by [Kirby Admin Bar](https://github.com/Pechente/kirby-admin-bar) – thanks for the initial idea.
