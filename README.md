@@ -1,3 +1,4 @@
+![GitHub release](https://img.shields.io/github/v/release/chrfickinger/kirby-statusbar.svg) ![License](https://img.shields.io/github/license/mashape/apistatus.svg)
 # Kirby Statusbar
 
 The **Kirby Statusbar Plugin** adds a slim, fixed-position status bar to the bottom of the frontend. It displays environment-specific information useful for developers and editors.
